@@ -30,5 +30,4 @@ def hangman():
         print('\n'.join(stages[0: wrong_guesses]))
         print('You lose! The words was {}'.format(word))
 
-
 hangman()
